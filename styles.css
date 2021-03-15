@@ -68,7 +68,7 @@
 .btn, #equal {
     background-color: white;
     outline: none;
-    transition-duration: 0.4s;
+    transition-duration: 0.1s;
     overflow: hidden;
     position: relative;
 }
@@ -90,4 +90,9 @@
     margin: 0;
     opacity: 1;
     transition: 0s
+  }
+  @media (max-width:768px){
+      .calc {
+          width: 70vw;
+      }
   }
