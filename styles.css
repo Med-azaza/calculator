@@ -25,6 +25,7 @@
     background-color: rgb(41, 40, 40);
     font-size: 2em;
     color: green;
+    border: 0;
 }
 .numbers>.btn {
     width: 33.3%;
